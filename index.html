@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Interesses - LAB365</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <div>
+            <div class="logo-lab365">
+                <img src="./assets/logotipo.png" alt="logo lab365">
+            </div>
+        </div>
+
+        <div class="principal">
+            <h2>Meus Interesses</h2>
+
+            <div class="input-btn">
+                <input id="input-lista" type="text" placeholder="Digite seu Interesse">
+                <button id="btn-add" title="Adicionar interesses na lista">Adicionar</button>
+            </div>
+        </div>
+
+        <div class="lista">
+            <div class="stg-btn">
+                <strong>Lista:</strong>
+                <button id="btn-limpar" title="Limpar todos os interesses da lista">Limpar Lista</button>
+            </div>
+            
+            <ul id="item-lista"></ul>
+        </div>
+
+        <div class="noticia">
+            <div>
+                <span>Notícia Patrocinada</span>
+            </div>
+
+            <a id="noticiaLink" target="_blank">
+                <p id="titulo-noticia"></p>
+            </a>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
